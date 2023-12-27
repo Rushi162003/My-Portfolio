@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    background: transparent;
+}
+
+#li {
+    float: right;
+    display: inline-block;
+    margin: 20px 50px;
+}
+
+#li a {
+    color: black;
+}
+
+#li a:hover {
+    color: rgba(255, 255, 0, 0.414);
+}
+
+li {
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#portfolio {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    /* align-items: ; */
+}
+
+#home {
+    margin: 0 0 0 0;
+    height: 500px;
+    width: 1536px;
+    background-color: cadetblue;
+    color: rgb(4, 4, 55);
+}
+
+#home h3 {
+    padding-top: 200px;
+}
+
+#home h3,
+p {
+    font-size: 80;
+    font-weight: 700;
+}
+
+#home p {
+    color: rgba(255, 255, 255, 0.838);
+}
+
+.arrow-down {
+    width: 100vw;
+    padding-left: 49%;
+}
+
+.arrow-down a {
+    padding: 10px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 150px;
+    width: 100vw;
+    height: 700px;
+    background-color: rgb(4, 4, 55);
+    color: cadetblue;
+
+}
+
+.about .col-6 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.col-6 h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.img {
+    padding-top: 30px;
+
+}
+
+.img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.col-6 .about-text {
+    padding-top: 30px;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    font-weight: 400;
+    font-size: large;
+    /* font */
+}
+
+#check {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: medium;
+}
+
+.project {
+    width: 100vw;
+    height: 800px;
+    color: rgb(4, 4, 55);
+    /* display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%; */
+}
+
+.project h3 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+.contact {
+    /* margin-top: 150px; */
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(4, 4, 55);
+    color: cadetblue;
+
+}
+
+.contact h3 {
+    /* padding-top: 80px; */
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.contact 
+{
+    font-family: Roboto, sans-serif;
+    margin-top: -10px;
+    /* color: bal; */
+   /* margin-bottom: 50px; */
+}
+.contactme {
+    text-align: center;
+    padding-top: 100px;
+    /* color: white;
+    background-color: black; */
+}
+.colume {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* background-color: black; */
+}
+.coloum1 {
+    padding-left: 50px;
+  font-family: Roboto, sans-serif;
+  padding-top: 140px;
+
+}
+.coloum1 p
+{
+    margin-top: -25px;
+}
+.coloum1 h4, p
+{
+  font-family: Roboto, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+.fa-solid {
+    /* padding-left: 20px; */
+}
+.fa-user {
+    padding-left: 20px;
+
+}
+
+.fa-location-dot {
+    padding-left: 20px;
+    
+}
+.fa-envelope {
+    padding-left: 20px;
+}
+.coloum1 .in
+{
+    padding-top: 20px;
+
+}
+.coloum1 .n
+{
+    margin-top: -13px;
+    margin-left: 60px;
+    font-size: 15px;
+    padding-top: 13px;
+}
+.coloum1 .h5n
+{
+    margin-top: -30px;
+    margin-left: 70px;
+}
+.coloum1 .ch
+{
+    margin-top: -13px;
+    margin-left: 60px;
+    font-size: 15px;
+    padding-top: 13px;
+}
+.coloum1 .h5ch
+{
+    margin-top: -30px;
+    margin-left: 70px;
+}
+.coloum1 .em
+{
+    margin-top: -13px;
+    margin-left: 60px;
+    font-size: 15px;
+    padding-top: 13px;
+}
+.coloum1 .h5em
+{
+    margin-top: -30px;
+    margin-left: 70px;
+}
+.coloum2
+{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.coloum2 h4, input {
+  font-family: Roboto, sans-serif;
+}
+.coloum2 h4
+{
+    padding:10px;
+}
+.coloum2 input
+{
+    padding: 7px;
+    border-radius: 5px;
+    border: 0.1px solid;
+    margin: 3px;
+}
+.coloum2 input[type=name]
+{
+    width: 200px;
+}
+.coloum2 input[type=email]
+{
+    width: 200px;
+}
+.coloum2 input[type=subject]
+{
+    width: 410px;
+}
+.coloum2 input[type=message]
+{
+    width: 410px;
+    height: 80px;
+    display: flex;
+}
+.coloum2 input[type=submit]
+{
+    width: 150px;
+    background-color: cadetblue;
+    font-weight: 700;
+}
