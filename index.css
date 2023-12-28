@@ -16,14 +16,101 @@ html {
 ul {
     list-style-type: none;
     background: transparent;
+    overflow-y:hidden ;
 }
 
 #li {
     float: right;
     display: inline-block;
     margin: 20px 50px;
+    
+}
+.li5
+{
+    animation-name: ani5;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition:ease-out all ;
+}
+@keyframes ani5 {
+    0%
+    {
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
+.li4
+{
+    animation-name: ani4;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition: ease all;
+    animation-delay: 0.2s;
+    /* opacity: 0; */
+}
+@keyframes ani4 {
+    0%
+    {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.li3
+{
+    animation-name: ani3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition: ease all;
+    animation-delay: 0.4s;
+    /* opacity: 0; */
+
+}
+@keyframes ani3 {
+    0%
+    {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 0.9;
+    }
+}
+
+.li2
+{
+    animation-name: ani2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition: ease all ;
+    animation-delay: 0.6s;
+    /* opacity: 0; */
+}
+@keyframes ani2 {
+    0%
+    {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
 #li a {
     color: black;
 }
@@ -175,19 +262,20 @@ p {
 }
 
 
-.contact 
-{
+.contact {
     font-family: Roboto, sans-serif;
     margin-top: -10px;
     /* color: bal; */
-   /* margin-bottom: 50px; */
+    /* margin-bottom: 50px; */
 }
+
 .contactme {
     text-align: center;
     padding-top: 100px;
     /* color: white;
     background-color: black; */
 }
+
 .colume {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -195,25 +283,29 @@ p {
     /* margin: 10px; */
     /* background-color: black; */
 }
+
 .coloum1 {
     padding-left: 50px;
-  font-family: Roboto, sans-serif;
-  padding-top: 140px;
+    font-family: Roboto, sans-serif;
+    padding-top: 140px;
 
 }
-.coloum1 p
-{
+
+.coloum1 p {
     margin-top: -25px;
 }
-.coloum1 h4, p
-{
-  font-family: Roboto, sans-serif;
-  padding: 10px;
-  margin: 10px;
+
+.coloum1 h4,
+p {
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    margin: 10px;
 }
+
 .fa-solid {
     /* padding-left: 20px; */
 }
+
 .fa-user {
     padding-left: 20px;
 
@@ -221,91 +313,94 @@ p {
 
 .fa-location-dot {
     padding-left: 20px;
-    
+
 }
+
 .fa-envelope {
     padding-left: 20px;
 }
-.coloum1 .in
-{
+
+.coloum1 .in {
     padding-top: 20px;
 
 }
-.coloum1 .n
-{
+
+.coloum1 .n {
     margin-top: -13px;
     margin-left: 60px;
     font-size: 15px;
     padding-top: 13px;
 }
-.coloum1 .h5n
-{
+
+.coloum1 .h5n {
     margin-top: -30px;
     margin-left: 70px;
 }
-.coloum1 .ch
-{
+
+.coloum1 .ch {
     margin-top: -13px;
     margin-left: 60px;
     font-size: 15px;
     padding-top: 13px;
 }
-.coloum1 .h5ch
-{
+
+.coloum1 .h5ch {
     margin-top: -30px;
     margin-left: 70px;
 }
-.coloum1 .em
-{
+
+.coloum1 .em {
     margin-top: -13px;
     margin-left: 60px;
     font-size: 15px;
     padding-top: 13px;
 }
-.coloum1 .h5em
-{
+
+.coloum1 .h5em {
     margin-top: -30px;
     margin-left: 70px;
 }
-.coloum2
-{
+
+.coloum2 {
     padding-top: 150px;
     padding-left: 50px;
 }
-.coloum2 h4, input {
-  font-family: Roboto, sans-serif;
+
+.coloum2 h4,
+input {
+    font-family: Roboto, sans-serif;
 }
-.coloum2 h4
-{
-    padding:10px;
+
+.coloum2 h4 {
+    padding: 10px;
 }
-.coloum2 input
-{
+
+.coloum2 input {
     padding: 7px;
     border-radius: 5px;
     border: 0.1px solid;
     margin: 3px;
 }
-.coloum2 input[type=name]
-{
+
+.coloum2 input[type=name] {
     width: 200px;
 }
-.coloum2 input[type=email]
-{
+
+.coloum2 input[type=email] {
     width: 200px;
 }
-.coloum2 input[type=subject]
-{
+
+.coloum2 input[type=subject] {
     width: 410px;
 }
-.coloum2 input[type=message]
-{
+
+.coloum2 input[type=message] {
     width: 410px;
     height: 80px;
     display: flex;
 }
-.coloum2 input[type=submit]
-{
+
+.coloum2 input[type=submit] {
     width: 150px;
     background-color: cadetblue;
     font-weight: 700;
