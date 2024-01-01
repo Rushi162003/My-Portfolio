@@ -28,7 +28,7 @@ ul {
 .li5
 {
     animation-name: ani5;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     transition:ease-out all ;
 }
@@ -48,10 +48,10 @@ ul {
 .li4
 {
     animation-name: ani4;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     transition: ease all;
-    animation-delay: 0.2s;
+    animation-delay: 0.3s;
     /* opacity: 0; */
 }
 @keyframes ani4 {
@@ -70,10 +70,10 @@ ul {
 .li3
 {
     animation-name: ani3;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     transition: ease all;
-    animation-delay: 0.4s;
+    animation-delay: 0.6s;
     /* opacity: 0; */
 
 }
@@ -93,10 +93,10 @@ ul {
 .li2
 {
     animation-name: ani2;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     transition: ease all ;
-    animation-delay: 0.6s;
+    animation-delay: 0.9s;
     /* opacity: 0; */
 }
 @keyframes ani2 {
@@ -142,9 +142,25 @@ li {
 }
 
 #home h3 {
-    padding-top: 200px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 #home h3,
 p {
     font-size: 80;
